@@ -38,7 +38,7 @@ body{
 
 }
 .wrapper{
-    height: 100vh;
+    min-height: 90vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -58,6 +58,7 @@ body{
     width: 50vw;
     border: 1px solid #21123A;
     border-radius: 8px;
+    height: fit-content;
 
     display: flex;
     /* align-items: center; */
